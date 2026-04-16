@@ -70,10 +70,11 @@ public class Explorer {
 				member++;
 				fullLength = 300;
 			} else if (fullLength == 300) {
-				System.out.println(member + "人目が渡り始めたよ");
+				System.out.println("隊長：\n" + (member + 1) + "人目が渡り始めたよ");
+				fullLength -= 50;
 
 			} else {
-				System.out.println("まだ渡ってるよ");
+				System.out.println("\n隊長：\nまだ渡ってるよ");
 				fullLength -= 50;
 
 			}
