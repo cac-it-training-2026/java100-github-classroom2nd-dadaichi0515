@@ -83,9 +83,11 @@ public class Explorer {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-
 		//ここにwhile文、if文を利用した処理を記述
 
+		while (i < 3) {
+
+		}
 
 		if (i == 3) {
 			System.out.println("隊長：");
