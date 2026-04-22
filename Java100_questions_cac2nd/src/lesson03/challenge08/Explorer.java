@@ -73,8 +73,8 @@ public class Explorer {
 				break;
 			}
 
-		} while (i < 7);
-
+		} while (i < 6);
+		i++;
 		if (lithograph == 3) {
 			System.out.println("洞窟の入り口が開きました。");
 		} else {
