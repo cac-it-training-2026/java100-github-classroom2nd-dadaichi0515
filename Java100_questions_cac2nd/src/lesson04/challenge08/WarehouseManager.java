@@ -84,7 +84,7 @@ public class WarehouseManager {
 
 				for (int j = 0; j < ABKosanArray2.length; j++) {
 					if (ABKosanArray2[j] == inputNum2) {
-						loopFlag = true;
+						loopFlag2 = true;
 						break;
 					}
 				}
