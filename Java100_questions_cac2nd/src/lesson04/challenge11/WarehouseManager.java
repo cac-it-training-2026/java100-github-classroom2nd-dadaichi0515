@@ -166,9 +166,10 @@ public class WarehouseManager {
 		for (int i = 0; i < MQArrayX.length; i++) {
 			for (int j = 0; j < MQArrayX[0].length; j++) {
 				MQArrayX[i][j] = isArray[k];
-				k++;
+
 				if (isArray[k] == -1) {
 					luupstopFlag = true;
+					k++;
 					break;
 
 				}
