@@ -83,7 +83,7 @@ public class WarehouseManager {
 		//入力処理および入力値の代入処理
 		System.out.print("\nどのパターンを変更しますか>");
 		String changewardString = br.readLine();
-		int changewars = Integer.parseInt(changewardString);
+		int changeward = Integer.parseInt(changewardString);
 		System.out.println("あいさつを吹き込んでください>");
 		String aisatuString = br.readLine();
 
@@ -91,7 +91,7 @@ public class WarehouseManager {
 		System.out.println("よし。もう一度確かめてみよう。\n");
 
 		//三つのあいさつパターンの出力処理を記述する
-		aisatuArray[(changewars - 1)] = aisatuString;
+		aisatuArray[(changeward - 1)] = aisatuString;
 		for (int i = 0; i < aisatuArray.length; i++) {
 			System.out.print("\n\nあいさつパターン" + (i + 1) + "...");
 			System.out.print(aisatuArray[i]);
