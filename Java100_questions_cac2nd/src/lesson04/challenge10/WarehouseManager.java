@@ -77,11 +77,11 @@ public class WarehouseManager {
 
 		}
 		for (int i = 0; i < MQArrayD.length; i++) {
-			int kazu = (int) (Math.random() * 10 % 4) + 1;
+			int kazu = (int) (Math.random() * 10 % 4);
 			if (kazu == 0) {
 				MQArrayD[i] = 0;
 			} else {
-				MQArrayD[i] = (int) (Math.random() * 10);
+				MQArrayD[i] = (int) (Math.random() * 10) + 1;
 			}
 
 		}
